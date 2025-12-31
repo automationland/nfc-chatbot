@@ -2,102 +2,206 @@ import streamlit as st
 from google import genai
 from google.genai import types
 import os
+import requests
+import datetime
 from dotenv import load_dotenv
+import glob
 import time
 
-# --- 1. CẤU HÌNH TRANG & CSS ---
+# --- 1. CẤU HÌNH HỆ THỐNG & IMPORT ---
 load_dotenv()
 
+TELEGRAM_BOT_TOKEN = os.getenv("TELEGRAM_BOT_TOKEN")
+TELEGRAM_CHAT_ID = os.getenv("TELEGRAM_CHAT_ID")
 PAGE_TITLE = "Trợ Lý The Gió Riverside"
-CONTEXT_FILE = "context.txt"
-MODEL_NAME = "gemini-2.0-flash-lite"
+CONTEXT_FOLDER = "context"
+MODEL_NAME = "gemini-2.0-flash" 
 
 st.set_page_config(
     page_title=PAGE_TITLE, 
     page_icon="🏢", 
-    layout="centered", # Layout centered nhìn giống app chat mobile hơn
-    initial_sidebar_state="collapsed" # Thu gọn sidebar để tập trung vào chat
+    layout="centered", 
+    initial_sidebar_state="collapsed"
 )
 
-# Custom CSS để giao diện đẹp hơn
+# CSS Tùy chỉnh
 st.markdown("""
 <style>
-    /* Xóa padding thừa ở đầu trang */
-    .block-container {
-        padding-top: 2rem;
-        padding-bottom: 2rem;
-    }
-    /* Ẩn icon menu mặc định của Streamlit (3 dấu gạch) nếu muốn */
-    /* #MainMenu {visibility: hidden;} */
-    /* footer {visibility: hidden;} */
+    .block-container { padding-top: 2rem; padding-bottom: 2rem; }
+    .stChatMessage { border-radius: 10px; margin-bottom: 10px; }
     
-    /* Style cho khung chat */
-    .stChatMessage {
+    /* Box thông báo kết nối Sale */
+    .handover-box {
+        border: 2px solid #28a745;
+        background-color: #d4edda;
+        color: #155724;
+        padding: 15px;
         border-radius: 10px;
-        margin-bottom: 10px;
+        text-align: center;
+        margin-top: 10px;
+        font-weight: bold;
+        animation: fadeIn 0.8s;
     }
+    @keyframes fadeIn { from { opacity: 0; } to { opacity: 1; } }
 </style>
 """, unsafe_allow_html=True)
 
-# --- 2. HÀM LOAD DỮ LIỆU ---
+# --- 2. CÁC HÀM XỬ LÝ NGHIỆP VỤ ---
+
 @st.cache_data
-def load_context():
-    if os.path.exists(CONTEXT_FILE):
-        with open(CONTEXT_FILE, "r", encoding="utf-8") as f:
-            return f.read()
-    return None
+def load_context(selected_files=None):
+    if not os.path.exists(CONTEXT_FOLDER): return None
+    context_data = ""
+    files_to_read = selected_files if selected_files else [f for f in os.listdir(CONTEXT_FOLDER) if f.endswith(".txt")]
+    
+    for filename in files_to_read:
+        file_path = os.path.join(CONTEXT_FOLDER, filename)
+        if os.path.exists(file_path):
+            with open(file_path, "r", encoding="utf-8") as f:
+                context_data += f"\n\n# FILE NGUỒN: {filename}\n{f.read()}"
+    return context_data if context_data else None
 
-context_data = load_context()
+def analyze_chat_history(client, messages):
+    """
+    Dùng Gemini để tóm tắt hội thoại (Cần truyền biến client vào)
+    """
+    conversation_text = ""
+    for msg in messages:
+        role = "Khách hàng" if msg["role"] == "user" else "Bot AI"
+        clean_content = str(msg["content"]).replace("[HANDOVER]", "")
+        conversation_text += f"- {role}: {clean_content}\n"
 
-# --- 3. XỬ LÝ SIDEBAR (SETTINGS) ---
+    analysis_prompt = f"""
+    Đóng vai là một Trưởng phòng Kinh doanh Bất động sản dày dạn kinh nghiệm.
+    Dưới đây là đoạn hội thoại giữa Khách hàng tiềm năng và Bot tư vấn:
+    
+    {conversation_text}
+    
+    Hãy phân tích và viết một báo cáo ngắn gọn (tối đa 150 từ) gửi cho nhân viên Sale với cấu trúc sau:
+    
+    1. 📝 **Tóm tắt:** Khách quan tâm vấn đề gì chính? (Giá/Vị trí/Pháp lý...?) Bot đã giải đáp được gì?
+    2. 🔥 **Đánh giá khách:** (Nóng/Ấm/Lạnh). Khách có sành sỏi không? Có thiện chí mua ngay không?
+    3. 💡 **Chiến thuật Sale:** Nhân viên Sale khi gọi lại nên phủ đầu bằng thông tin gì? Nên gửi tài liệu gì? Cần tránh nói gì (nếu khách đã tỏ ra khó chịu)?
+    
+    Trả lời ngắn gọn, gạch đầu dòng, đi thẳng vào vấn đề.
+    """
+
+    try:
+        response = client.models.generate_content(
+            model=MODEL_NAME,
+            contents=analysis_prompt
+        )
+        return response.text
+    except Exception as e:
+        return f"⚠️ Không thể phân tích hội thoại: {e}"
+
+def save_lead(phone, interest_note="Khách quan tâm từ Bot"):
+    """Gửi thông báo về Telegram"""
+    timestamp = datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+    
+    if TELEGRAM_BOT_TOKEN and TELEGRAM_CHAT_ID:
+        try:
+            msg = (
+                f"🔥 **KHÁCH HÀNG MỚI!**\n"
+                f"⏰ `{timestamp}`\n"
+                f"📞 SĐT: `{phone}`\n"
+                f"📝 **Ghi chú:**\n{interest_note}"
+            )
+            url = f"https://api.telegram.org/bot{TELEGRAM_BOT_TOKEN}/sendMessage"
+            payload = {"chat_id": TELEGRAM_CHAT_ID, "text": msg, "parse_mode": "Markdown"}
+            requests.post(url, json=payload)
+        except Exception as e:
+            st.error(f"⚠️ Lỗi gửi Telegram: {e}")
+    else:
+        st.warning("⚠️ Chưa cấu hình Token Telegram trong file .env")
+
+# --- 3. SIDEBAR (CÀI ĐẶT) ---
 with st.sidebar:
     st.header("⚙️ Cấu hình")
     
-    # API Key Handling
-    env_api_key = os.getenv("GEMINI_API_KEY")
-    if env_api_key:
-        st.success("✅ Đã kết nối API")
-        api_key = env_api_key
-    else:
-        api_key = st.text_input("Gemini API Key:", type="password")
-        st.info("Nhập key để bắt đầu chat.")
+    all_files = [os.path.basename(f) for f in glob.glob(os.path.join(CONTEXT_FOLDER, "*.txt"))]
+    selected_files = st.multiselect("Tài liệu bot học:", options=all_files, default=all_files)
     
-    st.markdown("---")
-    
-    # Nút Reset
-    if st.button("Làm mới cuộc trò chuyện", type="primary", use_container_width=True):
-        st.session_state.messages = []
+    if st.button("🔄 Cập nhật & Xóa ký ức", use_container_width=True):
+        st.cache_data.clear()
+        st.session_state.messages = [] 
         st.rerun()
-        
-    st.markdown(f"**Dữ liệu:** {'✅ Đã nạp' if context_data else '❌ Chưa có'}")
 
-# --- 4. KHỞI TẠO CLIENT & PROMPT ---
-if not context_data:
-    st.error("⚠️ Chưa có dữ liệu. Vui lòng chạy file `convert_data.py` trước.")
-    st.stop()
+    context_data = load_context(selected_files)
+    
+    env_api_key = os.getenv("GEMINI_API_KEY")
+    api_key = env_api_key if env_api_key else st.text_input("Gemini API Key:", type="password")
+    
+    if context_data:
+        st.info(f"📚 Đã nạp {len(selected_files)} tài liệu.")
+    else:
+        st.error("❌ Chưa có dữ liệu!")
 
-# --- CẤU HÌNH PROMPT (NHÂN CÁCH BOT) ---
-# --- CẤU HÌNH PROMPT (ĐÃ FIX LỖI XIN SĐT) ---
+# --- 4. PROMPT HỆ THỐNG (GIỮ NGUYÊN BẢN GỐC CỦA BẠN) ---
 SYS_INSTRUCT = f"""
-VAI TRÒ:
-Bạn là Chuyên viên Tư vấn BĐS của dự án The Gió Riverside.
-Phong cách: Tinh gọn - Súc tích - Thực tế.
+# VAI TRÒ (ROLE)
+Bạn là **Trợ lý AI Hỗ trợ Thông tin Dự án The Gió Riverside**.
+Nhiệm vụ: Cung cấp thông tin hấp dẫn, giải đáp thắc mắc và khéo léo điều hướng khách hàng từ "Tìm hiểu" sang "Muốn mua".
+Bạn là cầu nối: Giúp khách hàng nắm bắt thông tin -> Khi khách hàng hài lòng -> Chuyển tiếp cho Sale (người thật).
 
-DỮ LIỆU NỀN TẢNG:
+# DỮ LIỆU KIẾN THỨC (KNOWLEDGE BASE)
 {context_data}
 
-NGUYÊN TẮC TRẢ LỜI:
-1.  **Cấu trúc:** Trả lời trực diện + 3-5 gạch đầu dòng + Insight ngắn gọn.
-2.  **Trung thực:** Chỉ dùng thông tin trong dữ liệu.
+# HƯỚNG DẪN HÀNH VI (BEHAVIOR GUIDELINES)
 
-3.  **QUAN TRỌNG - XỬ LÝ YÊU CẦU TÀI LIỆU:**
-    * **Tuyệt đối KHÔNG xin thông tin cá nhân** (SĐT, Email, Zalo) của khách hàng dưới mọi hình thức.
-    * Nếu khách hàng yêu cầu gửi "Bảng hàng", "Hình ảnh", "Chính sách chi tiết":
-        * Hãy trích xuất ngay các thông tin chi tiết nhất (Giá, Diện tích, Mã căn...) có trong Dữ liệu nền tảng để trả lời ngay tại đây.
-        * Nếu trong dữ liệu có đường link (URL) ảnh hoặc tài liệu, hãy gửi link đó.
-        * Nếu không có thông tin chi tiết hơn, hãy nói: "Dạ hiện tại em có thể cung cấp ngay các thông tin cốt lõi sau đây..." và liệt kê ra.
+## 1. Phong cách Tư vấn (Sales-oriented Tone)
+- **Xưng hô:** Em - Anh/Chị.
+- **Tư duy:** Không chỉ trả lời thông tin (Feature), hãy nói về lợi ích (Benefit) mà khách hàng nhận được.
+- **Trung thực:** Chỉ dùng thông tin trong Knowledge Base. Nếu thiếu, báo "đang cập nhật" và gợi ý kết nối Sale.
 
-4.  **Thái độ:** Nhiệt tình, hỗ trợ giải đáp ngay lập tức, không hẹn khách.
+## 2. Kỹ thuật "Giữ Lửa" (ALWAYS LEADING)
+Trừ khi đang xin SĐT (Handover), cuối mỗi câu trả lời BẮT BUỘC phải có một câu hỏi gợi mở để dẫn dắt khách hàng sang chủ đề tiếp theo theo luồng sau:
+- Khách hỏi **Vị trí** -> Gợi ý về **Tiện ích** ("Anh/chị có muốn xem thêm về các tiện ích quanh dự án không ạ?")
+- Khách hỏi **Tiện ích** -> Gợi ý về **Thiết kế/Căn hộ** ("Bên em có thiết kế căn hộ rất thoáng, anh/chị xem qua layout nhé?")
+- Khách hỏi **Thiết kế** -> Gợi ý về **Chính sách/Giá** ("Anh/chị có quan tâm đến mức giá rumor hay chính sách thanh toán đợt này không ạ?")
+- Khách hỏi **Giá/Chính sách** -> **KÍCH HOẠT HANDOVER**.
+
+## 3. Quy trình Chuyển đổi (CRITICAL HANDOVER PROTOCOL)
+Phân tích ý định khách hàng trong từng câu chat:
+
+**TRƯỜNG HỢP A: Đang tìm hiểu (Info Gathering)**
+- Trả lời chi tiết, dùng Markdown.
+- **Luôn kết thúc bằng 1 câu gợi ý** (như mục 2).
+
+**TRƯỜNG HỢP B: Tín hiệu Mua (Buying Signals)**
+Khi khách nhắc tới: *giá chi tiết, bảng giá, booking, cọc, xem nhà mẫu, chiết khấu, mua, ưu đãi...*
+
+-> **HÀNH ĐỘNG (Thực hiện theo trình tự):**
+
+1.  **BƯỚC 1: TRA CỨU & TRẢ LỜI (Ưu tiên hàng đầu)**
+    * Kiểm tra kỹ trong Knowledge Base.
+    * **Nếu có thông tin:** Trả lời rõ ràng, chi tiết câu hỏi của khách hàng (Ví dụ: khách hỏi giá rumor -> trả lời khoảng giá; khách hỏi quy trình booking -> trả lời các bước).
+    * **Nếu KHÔNG có thông tin:** Trả lời trung thực là thông tin này đang cập nhật hoặc thay đổi tùy thời điểm.
+
+2.  **BƯỚC 2: CHUYỂN ĐỔI (Handover)**
+    * Sau khi đã trả lời xong thông tin ở Bước 1, hãy đưa ra lý do hợp lý (cần check căn trống, cần bảng tính dòng tiền chi tiết, cần xem ưu đãi độc quyền...) để xin số điện thoại.
+    * **BẮT BUỘC** thêm mã `[HANDOVER]` vào trước câu xin số.
+
+**Ví dụ mẫu (Khi có Data):**
+> "Dạ, theo chính sách hiện hành, mức giá rumor cho căn 2PN đang dao động từ 2.5 - 3 tỷ đồng, và phương thức thanh toán chuẩn sẽ được giãn trong 24 tháng ạ.
+>
+> Tuy nhiên, để chọn được căn tầng đẹp và nhận bảng tính dòng tiền chi tiết nhất cho từng đợt đóng, em xin phép kết nối anh/chị với chuyên viên hỗ trợ riêng nhé.
+>
+> [HANDOVER]
+> 📞 **Anh/Chị nhắn giúp em số Zalo/SĐT để bạn ấy gửi file qua ngay ạ!**"
+
+**Ví dụ mẫu (Khi KHÔNG có Data):**
+> "Dạ về chính sách chiết khấu 10% anh/chị vừa hỏi, hiện tại trong văn bản công bố mới nhất em chưa thấy đề cập đến mục này ạ.
+>
+> Để đảm bảo quyền lợi và xác nhận xem có suất ngoại giao nào đặc biệt không, em nối máy ngay với bộ phận kinh doanh check cho mình nhé.
+>
+> [HANDOVER]
+> 📞 **Anh/Chị cho em xin số điện thoại để bạn ấy báo lại kết quả ngay ạ!**"
+(QUAN TRỌNG: Bắt buộc thêm mã `[HANDOVER]` vào câu trả lời để hệ thống kích hoạt giao diện kết nối).
+
+# ĐỊNH DẠNG TRẢ LỜI
+- Dùng Markdown.
+- Câu gợi ý cuối cùng nên để nghiêng hoặc dùng icon 👉 để nổi bật.
 """
 
 client = None
@@ -110,79 +214,116 @@ if api_key:
 # --- 5. GIAO DIỆN CHAT ---
 st.title(f"🏢 {PAGE_TITLE}")
 
-# Khởi tạo history
 if "messages" not in st.session_state:
     st.session_state.messages = []
 
-# Hiển thị lời chào nếu chưa có tin nhắn
-if len(st.session_state.messages) == 0:
-    st.info("👋 Chào sếp! Tôi là trợ lý ảo AI. Sếp cần thông tin gì về dự án The Gió hôm nay?")
-
-# Render lịch sử chat
+# 5.1 Render Lịch sử Chat (Ẩn thẻ [HANDOVER])
 for msg in st.session_state.messages:
-    # Chọn Avatar
-    avatar = "👤" if msg["role"] == "user" else "🤖"
-    role_ui = "assistant" if msg["role"] == "model" else "user"
-    
-    with st.chat_message(role_ui, avatar=avatar):
-        st.markdown(msg["content"])
+    with st.chat_message("user" if msg["role"] == "user" else "assistant", avatar="👤" if msg["role"] == "user" else "🤖"):
+        st.markdown(str(msg["content"]).replace("[HANDOVER]", ""))
 
-# --- 6. XỬ LÝ INPUT & LOADING ---
-if prompt := st.chat_input("Hỏi về giá, vị trí, tiện ích..."):
+# --- 6. LOGIC HIỂN THỊ FORM (SỬA LỖI: ĐƯA RA NGOÀI VÒNG LẶP INPUT) ---
+# Kiểm tra tin nhắn cuối cùng, nếu có [HANDOVER] -> Hiện Form
+if len(st.session_state.messages) > 0:
+    last_msg = st.session_state.messages[-1]
+    
+    # Chỉ hiện form nếu tin cuối là của Bot và có thẻ Handover
+    if last_msg["role"] == "model" and "[HANDOVER]" in last_msg["content"]:
+        st.markdown("---")
+        st.markdown("""
+        <div class="handover-box">
+            🔔 <b>HỆ THỐNG ĐANG KẾT NỐI SALE...</b><br>
+            Vui lòng nhập SĐT để nhận bảng giá & tư vấn chuyên sâu!
+        </div>
+        """, unsafe_allow_html=True)
+        
+        # Form nhập liệu
+        with st.form(key=f"contact_form_{len(st.session_state.messages)}"):
+            col1, col2 = st.columns([3, 1])
+            with col1:
+                phone_input = st.text_input("Số điện thoại / Zalo:", placeholder="0909xxxxxx")
+            with col2:
+                st.markdown("<div style='padding-top: 28px;'></div>", unsafe_allow_html=True)
+                submitted = st.form_submit_button("Gửi Ngay 🚀")
+            
+            if submitted:
+                if not phone_input:
+                    st.error("⚠️ Vui lòng nhập số điện thoại!")
+                else:
+                    with st.spinner("⏳ AI đang phân tích nhu cầu và kết nối tổng đài..."):
+                        # 1. Phân tích hội thoại (Đã truyền biến client)
+                        analysis = analyze_chat_history(client, st.session_state.messages)
+                        
+                        # 2. Gửi Telegram
+                        save_lead(phone_input, interest_note=f"\n{analysis}")
+                    
+                    st.success("✅ Đã gửi thành công! Chuyên viên sẽ gọi lại trong 5 phút.")
+                    
+                    # 3. Ghi câu cảm ơn vào lịch sử
+                    st.session_state.messages.append({
+                        "role": "model", 
+                        "content": f"Dạ em đã nhận số **{phone_input}**. Em đã nhắn bạn Sale ưu tiên hỗ trợ mình ngay rồi ạ!"
+                    })
+                    time.sleep(1.5) 
+                    st.rerun() 
+
+# --- 7. XỬ LÝ NHẬP LIỆU (CHAT INPUT) ---
+if prompt := st.chat_input("Hỏi về dự án (Vị trí, Giá, Tiện ích)..."):
     # 1. User Message
     st.session_state.messages.append({"role": "user", "content": prompt})
     with st.chat_message("user", avatar="👤"):
         st.markdown(prompt)
 
-    # 2. Assistant Response (Có Loading)
-    if client:
+    # 2. Assistant Response
+    if client and context_data:
         with st.chat_message("assistant", avatar="🤖"):
             message_placeholder = st.empty()
             full_response = ""
             
-            # --- HIỆU ỨNG LOADING ---
-            # Spinner sẽ chạy cho đến khi data bắt đầu stream về
             with st.spinner("Đang tra cứu dữ liệu..."):
                 try:
-                    # Convert history cho SDK mới
+                    # Limit History
+                    HISTORY_LIMIT = 10 
+                    current_history = st.session_state.messages[-HISTORY_LIMIT:]
+                    
                     chat_history = []
-                    for m in st.session_state.messages:
+                    for m in current_history:
                         role_api = "user" if m["role"] == "user" else "model"
                         chat_history.append(
                             types.Content(
                                 role=role_api,
-                                parts=[types.Part.from_text(text=m["content"])]
+                                parts=[types.Part.from_text(text=str(m["content"]))]
                             )
                         )
 
-                    # Config
                     config = types.GenerateContentConfig(
                         system_instruction=SYS_INSTRUCT,
-                        temperature=0.7
+                        temperature=0.5 
                     )
 
-                    # Gọi API
                     response = client.models.generate_content_stream(
                         model=MODEL_NAME,
                         contents=chat_history,
                         config=config
                     )
                     
-                    # Stream dữ liệu
                     for chunk in response:
                         if chunk.text:
                             full_response += chunk.text
-                            # Hiệu ứng gõ máy (tùy chọn, stream trực tiếp thì bỏ sleep)
-                            # time.sleep(0.01) 
-                            message_placeholder.markdown(full_response + "▌")
+                            # Ẩn thẻ Handover khi đang gõ
+                            message_placeholder.markdown(full_response.replace("[HANDOVER]", "") + "▌")
                     
-                    # Hoàn tất
-                    message_placeholder.markdown(full_response)
-                    
-                    # Lưu vào session
+                    # Final Render
+                    message_placeholder.markdown(full_response.replace("[HANDOVER]", ""))
                     st.session_state.messages.append({"role": "model", "content": full_response})
+                    
+                    # Nếu phát hiện Handover -> Reload lại trang để Form hiển thị ở block bên trên
+                    if "[HANDOVER]" in full_response:
+                        st.rerun()
 
                 except Exception as e:
                     message_placeholder.error(f"Lỗi: {e}")
+    elif not context_data:
+        st.error("⚠️ Vui lòng nạp dữ liệu từ Sidebar.")
     else:
-        st.warning("Vui lòng nhập API Key để tiếp tục.")
+        st.warning("⚠️ Nhập API Key để bắt đầu.")

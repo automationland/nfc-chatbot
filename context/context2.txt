@@ -1,0 +1,494 @@
+
+## Nguồn: 872075ec12e59d4b2afb321fa703715f_Gió Đông 2  - KickOff (9.9.2025) - (PDF).pdf.pdf
+Dưới đây là dữ liệu chi tiết đã được trích xuất:
+
+
+
+--- Dữ liệu trang 1-4 ---
+### Thông tin dự án
+*   **Tên dự án**: GIÓ ĐÔNG 2 - CHẠM GIÓ SÔNG
+*   **Thương hiệu**: The glo RIVERSIDE
+*   **Mô tả**: THÁP ĐẸP NHẤT - VIEW SÔNG PANORAMA
+
+### THANH TOÁN CHUẨN
+*   **Lãi suất**: Chỉ 10%/năm
+*   **Ký HĐMB**: 15%
+*   **Nhận nhà**: 30% (KHÔNG VAY NH)
+
+### LỊCH THANH TOÁN CHUẨN
+*   **ĐỢT 1 (XÁC NHẬN ĐĂNG KÝ)**: 50 triệu
+*   **ĐỢT 2 (11/2025 VBTT)**: 10%
+*   **ĐỢT 3 (03/2026 HĐMB)**: 5%
+*   **ĐỢT 4 (09/2026)**: 5%
+*   **ĐỢT 5 (03/2027)**: 5%
+*   **ĐỢT 6 (09/2027)**: 5%
+*   **ĐỢT 7 (Q1/2028 BÀN GIAO)**: 65%
+*   **ĐỢT 8 (CẤP GCN)**: 5%
+*   **Tổng thanh toán năm 2025**: 10%
+*   **Tổng thanh toán năm 2026**: 10%
+*   **Tổng thanh toán năm 2027**: 10%
+*   **Tổng thanh toán năm 2028**: 70% + 2%PBT
+
+### THANH TOÁN “MAY ĐO”
+
+### LỊCH THANH TOÁN “MAY ĐO”
+#### Phương án 1
+*   **ĐỢT 1 (XÁC NHẬN ĐĂNG KÝ)**: 50 triệu
+*   **ĐỢT 2 (11/2025 VBTT)**: 30%
+*   **ĐỢT 3 (03/2026 HĐMB)**: 40%
+*   **ĐỢT 4 (Q1/2028 BÀN GIAO)**: 25%
+*   **ĐỢT 5 (CẤP GCN)**: 5%
+#### Phương án 2
+*   **ĐỢT 1 (XÁC NHẬN ĐĂNG KÝ)**: 50 triệu
+*   **ĐỢT 2 (11/2025 VBTT)**: 50%
+*   **ĐỢT 3 (03/2026 HĐMB)**: 20%
+*   **ĐỢT 4 (Q1/2028 BÀN GIAO)**: 25%
+*   **ĐỢT 5 (CẤP GCN)**: 5%
+#### Phương án 3
+*   **ĐỢT 1 (XÁC NHẬN ĐĂNG KÝ)**: 50 triệu
+*   **ĐỢT 2 (11/2025 VBTT)**: 70%
+*   **ĐỢT 3 (03/2026 HĐMB)**: 0%
+*   **ĐỢT 4 (Q1/2028 BÀN GIAO)**: 25%
+*   **ĐỢT 5 (CẤP GCN)**: 5%
+#### Phương án 4
+*   **ĐỢT 1 (XÁC NHẬN ĐĂNG KÝ)**: 50 triệu
+*   **ĐỢT 2 (11/2025 VBTT)**: 95%
+*   **ĐỢT 3 (03/2026 HĐMB)**: 0%
+*   **ĐỢT 4 (Q1/2028 BÀN GIAO)**: 0%
+*   **ĐỢT 5 (CẤP GCN)**: 5%
+
+--- Dữ liệu trang 5-8 ---
+### CHÍNH SÁCH THANH TOÁN CHUẨN
+*   **Đợt 1 (Ký HĐMB)**: Thanh toán 10%
+*   **Đợt 2 (Sau 30 ngày từ Đợt 1)**: Thanh toán 5%
+*   **Đợt 3 (Sau 60 ngày từ Đợt 1)**: Thanh toán 5%
+*   **Đợt 4 (Sau 90 ngày từ Đợt 1)**: Thanh toán 5%
+*   **Đợt 5 (Sau 120 ngày từ Đợt 1)**: Thanh toán 5%
+*   **Đợt 6 (Sau 150 ngày từ Đợt 1)**: Thanh toán 5%
+*   **Đợt 7 (Sau 180 ngày từ Đợt 1)**: Thanh toán 5%
+*   **Đợt 8 (Sau 210 ngày từ Đợt 1)**: Thanh toán 5%
+*   **Đợt 9 (Sau 240 ngày từ Đợt 1)**: Thanh toán 5%
+*   **Đợt 10 (Sau 270 ngày từ Đợt 1)**: Thanh toán 5%
+*   **Đợt 11 (Sau 300 ngày từ Đợt 1)**: Thanh toán 5%
+*   **Đợt 12 (Sau 330 ngày từ Đợt 1)**: Thanh toán 5%
+*   **Đợt 13 (Sau 360 ngày từ Đợt 1)**: Thanh toán 5%
+*   **Đợt 14 (Thông báo bàn giao căn hộ)**: Thanh toán 25%
+*   **Đợt 15 (Thông báo cấp GCN)**: Thanh toán 5%
+
+### CHÍNH SÁCH THANH TOÁN NHANH
+*   **Thanh toán 50%**: Chiết khấu 2%
+    *   **Đợt 1 (Ký HĐMB)**: Thanh toán 10%
+    *   **Đợt 2 (Sau 30 ngày từ Đợt 1)**: Thanh toán 40%
+    *   **Đợt 3 (Thông báo bàn giao căn hộ)**: Thanh toán 45%
+    *   **Đợt 4 (Thông báo cấp GCN)**: Thanh toán 5%
+*   **Thanh toán 70%**: Chiết khấu 3%
+    *   **Đợt 1 (Ký HĐMB)**: Thanh toán 10%
+    *   **Đợt 2 (Sau 30 ngày từ Đợt 1)**: Thanh toán 60%
+    *   **Đợt 3 (Thông báo bàn giao căn hộ)**: Thanh toán 25%
+    *   **Đợt 4 (Thông báo cấp GCN)**: Thanh toán 5%
+*   **Thanh toán 95%**: Chiết khấu 5%
+    *   **Đợt 1 (Ký HĐMB)**: Thanh toán 10%
+    *   **Đợt 2 (Sau 30 ngày từ Đợt 1)**: Thanh toán 85%
+    *   **Đợt 3 (Thông báo cấp GCN)**: Thanh toán 5%
+
+### CHÍNH SÁCH THANH TOÁN VAY NGÂN HÀNG
+*   **Đợt 1 (Ký HĐMB)**: Thanh toán 10%
+*   **Đợt 2 (Sau 30 ngày từ Đợt 1)**: Thanh toán 10%
+*   **Đợt 3 (Sau 60 ngày từ Đợt 1)**: Thanh toán 10%
+*   **Đợt 4 (Ngân hàng giải ngân)**: Thanh toán 70%
+*   **Đợt 5 (Thông báo cấp GCN)**: Thanh toán 5%
+
+### CHÍNH SÁCH THANH TOÁN VAY NGÂN HÀNG
+*   **Hỗ trợ lãi suất 0% và ân hạn nợ gốc trong 24 tháng**
+*   **Đợt 1 (Ký HĐMB)**: Thanh toán 10%
+*   **Đợt 2 (Sau 30 ngày từ Đợt 1)**: Thanh toán 10%
+*   **Đợt 3 (Sau 60 ngày từ Đợt 1)**: Thanh toán 10%
+*   **Đợt 4 (Ngân hàng giải ngân)**: Thanh toán 65%
+*   **Đợt 5 (Thông báo cấp GCN)**: Thanh toán 5%
+
+--- Dữ liệu trang 9-12 ---
+### TỔNG HỢP CHÍNH SÁCH TIÊU CHUẨN
+
+*   **BOOKING TIÊU CHUẨN**:
+    *   THANH TOÁN CHUẨN: 3%
+    *   THANH TOÁN “MAY ĐO” 30%: 3%
+    *   THANH TOÁN “MAY ĐO” 50%: 3%
+    *   THANH TOÁN “MAY ĐO” 70%: 3%
+    *   THANH TOÁN “MAY ĐO” 95%: 3%
+*   **GÓI FULL ĐIỆN MÁY**:
+    *   THANH TOÁN CHUẨN: Có
+    *   THANH TOÁN “MAY ĐO” 30%: Có
+    *   THANH TOÁN “MAY ĐO” 50%: Có
+    *   THANH TOÁN “MAY ĐO” 70%: Có
+    *   THANH TOÁN “MAY ĐO” 95%: Có
+*   **CHIẾT KHẤU THANH TOÁN**:
+    *   THANH TOÁN CHUẨN: (Không áp dụng)
+    *   THANH TOÁN “MAY ĐO” 30%: 8%
+    *   THANH TOÁN “MAY ĐO” 50%: 8.5%
+    *   THANH TOÁN “MAY ĐO” 70%: 9%
+    *   THANH TOÁN “MAY ĐO” 95%: 13.5%
+*   **THANH TOÁN 48H**:
+    *   THANH TOÁN CHUẨN: 1%
+    *   THANH TOÁN “MAY ĐO” 30%: 1%
+    *   THANH TOÁN “MAY ĐO” 50%: 1%
+    *   THANH TOÁN “MAY ĐO” 70%: 1%
+    *   THANH TOÁN “MAY ĐO” 95%: 1%
+*   **CHÍNH SÁCH SỈ**:
+    *   THANH TOÁN CHUẨN: 1%
+    *   THANH TOÁN “MAY ĐO” 30%: 1%
+    *   THANH TOÁN “MAY ĐO” 50%: 1%
+    *   THANH TOÁN “MAY ĐO” 70%: 1%
+    *   THANH TOÁN “MAY ĐO” 95%: 1%
+*   **TỔNG CHIẾT KHẤU KÈM FULL ĐIỆN MÁY**:
+    *   THANH TOÁN CHUẨN: 5%
+    *   THANH TOÁN “MAY ĐO” 30%: 13%
+    *   THANH TOÁN “MAY ĐO” 50%: 13.5%
+    *   THANH TOÁN “MAY ĐO” 70%: 14%
+    *   THANH TOÁN “MAY ĐO” 95%: 18.5%
+
+### 2. “SIÊU ƯU ĐÃI” TÀI CHÍNH
+
+*   **Hỗ trợ lãi suất**: 0% tới 36 tháng (24 tháng tới khi bàn giao nhà + 12 tháng sau khi nhận nhà)
+*   **Ân hạn nợ gốc**: 60 tháng
+*   **Miễn phí trả nợ trước hạn**
+*   **Vay**: 35 năm
+*   **Tỷ lệ**: 21%
+
+### LỊCH THANH TOÁN “SIÊU ƯU ĐÃI TÀI CHÍNH”
+
+*   **ĐỢT 1: XÁC NHẬN ĐĂNG KÝ**:
+    *   Thanh toán: 50 triệu
+*   **ĐỢT 2: 11/2025 VBTT**:
+    *   KHÁCH HÀNG: 10%
+    *   NGÂN HÀNG: 10%
+*   **ĐỢT 3: 01/2026**:
+    *   KHÁCH HÀNG: 5%
+    *   NGÂN HÀNG: 5%
+*   **ĐỢT 4: 03/2026 HĐMB**:
+    *   KHÁCH HÀNG: 5%
+    *   NGÂN HÀNG: 5%
+*   **ĐỢT 5: 04/2026**:
+    *   KHÁCH HÀNG: 50%
+    *   NGÂN HÀNG: 1%
+*   **ĐỢT 6: Q1/2028 BÀN GIAO**:
+    *   KHÁCH HÀNG: 25%
+    *   NGÂN HÀNG: 49%
+    *   Thời gian hỗ trợ lãi suất: 24 tháng tới khi bàn giao nhà
+*   **ĐỢT 8: CẤP GCN**:
+    *   KHÁCH HÀNG: 5%
+    *   NGÂN HÀNG: (Không áp dụng)
+    *   Thời gian hỗ trợ lãi suất: 12 tháng sau khi nhận nhà
+
+### CHÍNH SÁCH CHỐT BOOKING “THẦN TỐC”
+
+1.  **TẶNG FULL GÓI ĐIỆN MÁY THIẾT YẾU**
+2.  **“SIÊU ƯU ĐÃI” TÀI CHÍNH**:
+    *   **Hỗ trợ lãi suất**: 100% tới 36 tháng (24 tháng tới khi bàn giao nhà + 12 tháng sau khi nhận nhà)
+    *   **Ân hạn nợ gốc**: 60 tháng
+    *   **Miễn phí trả nợ trước hạn**
+
+==================================================
+
+## Nguồn: Bộ Ngân Hàng Câu Hỏi Q&A The Gió Riverside (11.03.2025).pdf
+Dưới đây là dữ liệu chi tiết đã được trích xuất:
+
+
+
+--- Dữ liệu trang 1-4 ---
+### BỘ NGÂN HÀNG Q&A THE GIÓ RIVERSIDE
+
+### THÔNG TIN LIÊN QUAN ĐẾN CHỦ ĐẦU TƯ & ĐỐI TÁC
+*   **Tên dự án**: THE GIÓ RIVERSIDE
+*   **Slogan và ý nghĩa**: KHU PHỨC HỢP CAO CẤP VEN SÔNG ĐÔNG SÀI GÒN. Thuộc phía Đông thành phố, The Gió Riverside tọa lạc tại vị trí ngã ba sông Ngọc và sông Đồng Nai. Dự án được định vị trở thành khu phức hợp hiện đại, đầy đủ các tiện ích, thương mại - dịch vụ, nhằm đáp ứng tốt nhu cầu sống, làm việc, học tập, giải trí của cộng đồng cư dân.
+*   **Vị trí của dự án**: 935 ĐT 743A, Khu phố Ngãi Thắng, Phường Bình Thắng, Thành phố Dĩ An, Bình Dương
+*   **Website dự án**: www.thegio.vn
+*   **Chủ đầu tư**: Công ty TNHH Xây dựng Kinh doanh Dịch vụ Thương mại Đông Nam
+*   **Đơn vị phát triển dự án**: Công ty Cổ phần Đầu tư & Phát triển Bất Động Sản An Gia (An Gia Group)
+*   **Kinh nghiệm triển khai dự án và tiềm lực của đơn vị phát triển dự án**: An Gia là nhà phát triển bất động sản uy tín trong phân khúc nhà ở vừa túi tiền và trung cấp. Với tinh thần “Better and More”, An Gia đã ra mắt thành công các dự án tại TP.HCM, Vũng Tàu và Bình Dương, bao gồm: The Standard, Westgate, The Sóng, Sky89, River Panorama, Riverside, Skyline, The Star, The Garden
+*   **Website đơn vị phát triển dự án**: www.angia.com.vn
+*   **Đơn vị tư vấn, tiếp thị độc quyền**: Công ty Cổ phần Phát triển An Gia Hưng Phát
+*   **Đơn vị Tư vấn Giám sát & Quản lý Dự án**: Công ty TNHH Artelia Việt Nam
+*   **Tổng thầu thi công**: Nhà thầu chính - Ricons
+*   **Đơn vị quản lý vận hành**: Hiện tại Chủ đầu tư đang tiến hành lựa chọn đơn vị Quản lý Vận hành cho Dự án The Gió Riverside, các đơn vị chuyên nghiệp và có uy tín trên thị trường hiện nay như: CBRE, Anabuki, Becamex Tokyu
+
+### THÔNG TIN LIÊN QUAN ĐẾN QUY MÔ & TIỆN ÍCH
+*   **Tổng diện tích khu đất**: 27.139,3 m2
+*   **Quy mô dự án? Có bao nhiêu tầng hầm, diện tích tầng hầm dự án rộng bao nhiêu m2?**:
+    *   02 Toà tháp căn hộ chung cư có Thương mại Dịch vụ (Shophouse) và Nhà trẻ: 3 tầng hầm, 40 tầng nổi trong đó 1 tầng lánh nạn kiêm cảnh quan tại tầng 20, 1 tầng sân thượng.
+    *   01 Trường học liên cấp 1&2.
+    *   Mật độ Xây dựng khoảng 40% toàn dự án
+    *   Cao khoảng 149m
+    *   Diện tích sàn mỗi hầm khoảng 15,800 m2
+*   **Tổng số lượng sản phẩm? Số lượng của từng loại hình?**: Tổng số lượng sản phẩm: 2987, trong đó:
+    *   2905 căn hộ diện tích trong khoảng 41m2 - 75.5m2
+    *   82 Thương mại Dịch vụ (Shophouse) 1 trệt - 1 lầu
+*   **Có bao nhiêu tiện ích nội khu dự án? Tiện ích khác biệt của Dự án là gì?**:
+    *   **Tiện ích ngoài trời Tầng trệt**: 2 Sân Pickleball, 1 Sân bóng rổ mini cho trẻ em, Sân chơi trò chơi liên hoàn, Khu vực vườn thư giãn, khu vực máy tập ngoài trời, khu vực ngồi có mái che.
+    *   **Tiện ích trong nhà tại tầng trệt**: Khu vực quầy cho shipper, các sảnh đón & lễ tân, khu hộp thư, Phòng Sinh hoạt cộng đồng (SHCĐ), Khu WC chung, Các sảnh đón của nhà trẻ, Sảnh đón lên khu Thương mại Dịch vụ, Sảnh đón lên khu vực tiện ích nâng cao, Các shops & cafe, nhà hàng, cửa hàng tiện lợi từ việc cho thuê các hoạt động của các Shophouse.
+    *   **Tiện ích tại Tầng 3**:
+        *   Tháp Gió Đông có các khu thư viện + đọc sách, Phòng SHCĐ đa năng, các lớp học, khu không gian mở và WC công cộng.
+        *   Tháp Gió Nam có các phòng chơi trẻ em, Phòng giải trí (bóng bàn, CLB, Sport Media), Khu không gian mở, WC công cộng.
+        *   Ngoài ra bên Tháp Gió Nam có khu vực tiện ích nâng cao: 2 Phòng Karaoke, 1 rạp phim Gia đình, 1 Phòng tiệc gồm bếp + sân khấu, 2 Phòng tiệc gồm bếp, 1 Phòng Golf giả lập.
+    *   **Tiện ích tầng 20 (Tầng lánh nạn)**:
+        *   Cụm yên tĩnh: Khu vực đường dạo, ngồi thiền, khu thư giãn, khu chơi đẩy banh golf, khu chơi cờ, ...
+        *   Cụm động: Khu chơi trẻ em, khu BBQ
+    *   **Tiện ích tầng 40 - Sân thượng**:
+        *   Tổ hợp tiện ích phục vụ sức khỏe: Gym & Fitness/Yoga/Dance/Sauna & Lockers
+        *   Tổ hợp giải trí dưới nước trẻ em gồm liên hoàn và hồ bơi, các khu vườn
+        *   Tổ hợp ăn uống ngoài trời: BBQ pavillions/Sky Bar, 02 Infinity pool, Jaccuzi
+*   **Tiện ích chính của dự án là gì? Diện tích bao nhiêu?**:
+    *   Khu chơi trẻ em tại Tầng trệt khoảng 900m2 tính luôn thảm cỏ xung quanh
+    *   Cụm sân vườn, lối đi dạo, ArtWork...bãi cỏ đa năng bố trí xen kẻ tại tầng trệt khoảng 2,200m2
+    *   Hồ bơi vô cực sân thượng dài khoảng 45m & 50m, rộng 7m
+*   **Khu phức hợp dưới nước gồm những tiện ích nào?**:
+    *   Khu phức hợp trên tầng thượng (tầng 40):
+        *   Hồ bơi vô cực tại 02 tháp Gió Đông & tháp Gió Nam;
+        *   Cảnh hoàng hôn và bình minh, Jacuzzi, Công viên nước trẻ em;
+        *   Tổng chiều dài khu chơi nước liên hoàn cho trẻ em trên sân thượng là 80m.
+*   **Cư dân Tháp Gió Đông có được quyền sử dụng tiện ích bên Tháp Gió Nam không và ngược lại?**: Dự án chung cư The Gió Riverside được xác định là Tòa nhà chung cư. Căn cứ theo quy định pháp luật, chung cư sẽ được quản lý với:
+    *   Một đơn vị quản lý vận hành chung.
+    *   Một tài khoản vận hành chung.
+    *   Một tài khoản Quỹ bảo trì chung.
+    *   Để phù hợp với quy định pháp luật, Cư dân đã đóng góp, chia sẻ chi phí vận hành, bảo trì phần diện tích sở hữu chung nên Cư dân của tất cả khối nhà được quyền sử dụng chung tiện ích thuộc phần sở hữu chung.
+
+### THÔNG TIN LIÊN QUAN ĐẾN THIẾT KẾ - XÂY DỰNG
+*   **Yếu tố vượt trội của The Gió Riverside so với các dự án khác tại Bình Dương?**:
+    *   Vị trí: Trung tâm giao thông 3 thành phố TP.HCM, Biên Hòa - Đồng Nai, Dĩ An - Bình Dương
+    *   Tầm nhìn ra sông thoáng mát
+    *   Tiện ích trên không: Gym & Fitness/Yoga/Dance/Sauna & Lockers
+    *   Khu thể thao Pickeball
+    *   Khu dịch vụ nâng cao: 2 phòng Karaoke, 1 rạp phim Gia đình, 1 phòng tiệc gồm bếp + sân khấu, 2 phòng tiệc gồm bếp, 1 phòng Golf giả lập
+*   **Có bao nhiêu lối tiếp cận dự án? Quy hoạch lộ giới bao nhiêu?**: Dự án có 02 lối tiếp cận:
+    *   Đường DT 743A, quy hoạch lộ giới 25m;
+    *   Đường D14, quy hoạch lộ giới 22m.
+*   **Chiều cao thông thủy tầng hầm bao nhiêu mét? Tầng trệt bao nhiêu mét? Tầng căn hộ bao nhiêu mét? (sàn đến trần)**:
+    *   Chiều cao thông thủy kết cấu tầng hầm ≥ 3m
+    *   Chiều cao thông thủy kết cấu Thương mại Dịch vụ (Shophouse) tầng trệt ≥ 4.10m (không đóng trần), chiều cao thông thủy sảnh chung cư khoảng 6m (trần thạch cao)
+    *   Chiều cao tầng căn hộ (sàn đến trần) từ 2.4m đến 2.7m tùy vị trí
+*   **Chiều cao căn hộ từ sàn đến sàn?**: Chiều cao căn hộ tầng điển hình tính từ sàn đến là 3.2m
+*   **Dự án có bao nhiêu thang máy, bao nhiêu thang thoát hiểm?**:
+    *   Tháp Gió Đông: Có 3 cụm thang máy với tổng cộng 15 thang khách và 2 thang phục vụ PCCC.
+    *   Tháp Gió Nam: Có 2 cụm thang máy với tổng cộng 16 thang khách và 2 thang phục vụ PCCC.
+    *   Ngoài ra, khối đế còn có một số thang máy phục vụ khu Thương mại Dịch vụ, nhà trẻ và PCCC.
+    *   Thang thoát hiểm: 05 thang cho tháp Gió Đông; 05 thang cho tháp Gió Nam.
+*   **Thang máy hiệu gì? Tốc độ bao nhiêu m/s, có sử dụng thẻ từ trong thang máy không?**: Thang máy hiệu Kone/ Schindler/ Otis/ Hitachi/ Toshiba/ Thyssen hoặc tương đương, tốc độ thang máy phục vụ khối chung cư là 3m/s, có sử dụng thẻ từ thang máy và chức năng nhận diện khuôn mặt.
+*   **Khu vực Hành lang chung căn hộ rộng bao nhiêu? Chiều cao thông thủy bao nhiêu?**: Hành lang khối căn hộ rộng 1.4m, chiều cao thông thủy hành lang là 2.5m.
+*   **Các loại sản phẩm?**: 2905 Căn hộ, điển hình có 3 loại:
+    *   280 Căn hộ Studio: Diện tích tim tường khoảng 41.30 m²;
+    *   2345 Căn hộ 2PN - 2WC: Diện tích tim tường khoảng 65,10 m²;
+    *   280 Căn 2PN+ - 2WC: Diện tích tim tường khoảng 75.50 m²;
+    *   82 căn Thương mại Dịch vụ (Shophouse) 01 trệt - 01 lầu, dao động từ 41.8m² đến 208m².
+*   **Hệ thống an ninh như thế nào?**: The Gió Riverside được bố trí hệ thống an ninh bao gồm hệ thống hạ tầng, cơ sở vật chất và các chốt an ninh vành đai 24/24 xung quanh tòa nhà. Tầng an ninh bao gồm 04 lớp:
+    *   **Lớp 1**:
+        *   Chốt an ninh cố định hoặc di động bố trí 24/24 tại các lối chính ra vào dự án và khu vực hầm trông giữ xe
+        *   Các lối phụ được trang bị hệ thống Access control chỉ cư dân có thể mới tiếp cận vào khu tiện ích nội khu được
+    *   **Lớp 2**: Access control Chốt an ninh hoặc nhân viên bảo vệ 24/24 tại các sảnh vào bên trong tòa nhà, Khách vãng lai đăng ký thông qua bảo vệ hoặc Cư dân bảo lãnh để lên căn hộ
+    *   **Lớp 3**: Access control trong thang máy, hệ thống gọi chủ nhà qua App tại Sảnh thang máy tầng trệt và tầng hầm
+    *   **Lớp 4**: Camera hành lang tầng. Access control để sử dụng các phòng tiện ích của cư dân.
+    *   Ngoài ra, tòa nhà còn được bố trí hệ thống camera tại khu vực công cộng để hỗ trợ giám sát an ninh. Toàn bộ hình ảnh được đưa về phòng CCTV trung tâm và lưu trữ trong khoảng thời gian nhất định. Bên cạnh đó, tòa nhà còn bố trí các chốt bảo vệ tuần tra để rà soát các hoạt động tuân thủ nội quy – quy định an ninh an toàn PCCC tại tòa nhà.
+*   **Hệ thống máy lạnh trung tâm hay riêng lẻ?**: Hệ thống máy lạnh riêng lẻ cho từng căn hộ, Chủ đầu tư đi sẵn ống đồng, dây nguồn, ống nước ngưng. Khách hàng tự lắp hệ thống máy lạnh.
+*   **Hệ thống gas trung tâm hay riêng lẻ?**: Không sử dụng hệ thống ga trung tâm, sử dụng bếp điện từ.
+*   **Hệ thống thu gom rác hoạt động như thế nào?**: Mỗi tầng căn hộ đều bố trí thùng rác đặt ở phòng rác, bên ngoài phòng rác là phòng đệm chống cháy và ngăn mùi. Phòng đệm có vòi nước mục đích để phục vụ vệ sinh phòng rác. Rác sẽ được thu gom và chuyển xuống phòng tập kết rác ở tầng hầm 1.
+*   **Hệ thống truyền hình cáp, internet sử dụng nhà mạng nào?**: Chủ đầu tư cung cấp nền tảng hệ thống truyền hình cáp và internet, tất cả nhà mạng đều có thể kết nối và sử dụng được, ví dụ FPT, Viettel, VNPT hoặc tương đương.
+*   **Khi có sự cố cháy, thoát hiểm như thế nào? Hệ thống báo cháy và chữa cháy hoạt động ra sao?**: Khi có cháy, chuông reo, loa thông báo trong từng căn hộ và hành lang hướng dẫn cư dân thoát hiểm đồng thời các đèn khẩn cấp sẽ sáng lên ở các lối ra thoát nạn, cư dân sẽ chạy theo lối thoát nạn dựa trên bảng chỉ dẫn và đèn báo 'EXIT'. Hệ thống báo cháy hoạt động dựa trên tín hiệu khói hoặc nhiệt, hệ thống chữa cháy hoạt động khi nhiệt độ trong phòng đạt ngưỡng hoạt động thì đầu phun sprinkler nổ ra và phun nước chữa cháy trong từng căn hộ, và khu vực công cộng. (Vị trí mà đầu phun bị kích hoạt).
+*   **Có máy phát điện dự phòng không? Sử dụng cho những mục đích nào (thang máy/điều hòa/chiếu sáng...)**: Máy phát điện dự phòng bố trí ở tầng hầm 1. Công suất máy phát điện dự phòng đảm bảo hoạt động của mạng điện ưu tiên gồm: Điện cho bơm nước sinh hoạt, hệ thống PCCC, thang máy, chiếu sáng hàng lang căn hộ, chiếu sáng khu vực công cộng camera an ninh.
+*   **Trong căn hộ có hệ thống báo cháy, báo khói và chữa cháy không?**: Bên trong căn hộ có trang bị hệ thống báo cháy, báo khói, báo nhiệt và chữa cháy tự động
+*   **Hành lang căn hộ có chữa cháy tự động không?**: Hàng lang căn hộ có hệ thống chữa cháy tự động
+
+--- Dữ liệu trang 5-8 ---
+Tài liệu đính kèm chỉ có 4 trang. Do đó, tôi không thể trích xuất nội dung từ trang 5 đến trang 8 như yêu cầu.
+
+--- Dữ liệu trang 9-12 ---
+### THÔNG TIN LIÊN QUAN THỦ TỤC MUA BÁN & THUẾ, PHÍ, LỆ PHÍ
+* **STT**: 79
+* **CÂU HỎI**: Người nước ngoài được mua dự án hay không? Pháp lý ký với chủ đầu tư?
+* **TRẢ LỜI**: Căn cứ Điều 17, 18 Luật Nhà ở năm 2023 thì Tổ chức, cá nhân nước ngoài chỉ được sở hữu nhà ở (bao gồm căn hộ chung cư và nhà ở riêng lẻ) trong dự án đầu tư xây dựng nhà ở thương mại, trừ khu vực bảo đảm quốc phòng, an ninh theo quy định của pháp luật Việt Nam (UBND cấp tỉnh sẽ công bố danh mục này khi có ý kiến của Bộ Quốc Phòng và Bộ Công An). Tuy nhiên tỷ lệ sở hữu nhà ở của người nước ngoài được quy định cụ thể tại Điều 19 Luật nhà ở năm 2023. Hiện tại đối với Khách hàng người nước ngoài sẽ ký Hợp đồng Cho Thuê dài hạn (50 năm) khi đủ điều kiện về sở hữu theo quy định pháp luật sẽ chuyển ký Hợp đồng Mua bán theo quy định.
+
+* **STT**: 80
+* **CÂU HỎI**: Pháp lý loại hình Thương mại Dịch vụ (Shophouse)?
+* **TRẢ LỜI**: Căn cứ Khoản 2 Điều 5 Luật Kinh doanh BĐS 2023 quy định: "Công trình xây dựng có sẵn, công trình xây dựng hình thành trong tương lai, bao gồm công trình xây dựng có công năng phục vụ mục đích giáo dục, y tế, thể thao, văn hóa, văn phòng, thương mại, dịch vụ, du lịch, lưu trú, công nghiệp và công trình xây dựng có công năng phục vụ hỗn hợp" Theo hướng dẫn quy định tại Khoản 2 Điều 3 NĐ 96/2024: Diện tích sàn xây dựng có công năng phục vụ mục đích thương mại, gồm: gian thương mại, lô thương mại và các phần diện tích sàn xây dựng có công năng phục vụ mục đích thương mại có tên gọi khác; Mẫu Hợp đồng được quy định tại Phụ lục Va của Nghị định 96/2024/NĐ-CP. Lưu ý: Thương mại dịch vụ chỉ phục vụ cho mục đích kinh doanh, không sử dụng cho mục đích ở
+
+* **STT**: 81
+* **CÂU HỎI**: Việt kiều, tổ chức, cá nhân nước ngoài cần cung cấp hồ sơ giấy tờ gì khi mua căn hộ, Shophouse?
+* **TRẢ LỜI**: - Người VN định cư ở nước ngoài mang Hộ chiếu nước ngoài (không còn CMND/CCCD của VN cấp), người gốc Việt Nam cần cung cấp giấy tờ chứng minh còn quốc tịch VN hoặc giấy tờ xác nhận là người gốc VN do Sở tư pháp các tỉnh, thành phố trực thuộc trung ương, cơ quan đại diện VN ở nước ngoài, cơ quan quản lý về người VN ở nước ngoài cấp hoặc giấy tờ khác theo quy định của pháp luật VN. - Tổ chức nước ngoài: Chứng nhận đầu tư/Giấy phép hoạt động tại VN (nếu là doanh nghiệp có vốn đầu tư nước ngoài, chi nhánh, văn phòng đại diện của doanh nghiệp nước ngoài, quỹ đầu tư nước ngoài và chi nhánh NH nước ngoài đang hoạt động tại VN). - Cá nhân nước ngoài: Hộ chiếu (còn hiệu lực) có đóng dấu kiểm chứng nhập cảnh hợp pháp, Thị thực (nếu có). Cá nhân cam kết bằng văn bản về việc không thuộc diện được quyền ưu đãi, miễn trừ ngoại giao, lãnh sự theo Điều 18 Luật Nhà ở 2023 và Điều 3 Nghị định 95/2024/NĐ-CP.
+
+* **STT**: 82
+* **CÂU HỎI**: Cách thức thanh toán tiền mua nhà của người nước ngoài?
+* **TRẢ LỜI**: Quy định tại Điều 21 của Luật nhà ở 2023: Nghĩa vụ của chủ sở hữu nhà ở là tổ chức, cá nhân nước ngoài thanh toán tiền mua nhà thông qua tổ chức tín dụng, chi nhánh ngân hàng nước ngoài đang hoạt động tại Việt Nam.
+
+* **STT**: 83
+* **CÂU HỎI**: Quy trình chuyển nhượng hợp đồng mua bán, các loại chi phí khách hàng phải đóng?
+* **TRẢ LỜI**: - Quy trình chuyển nhượng Hợp đồng mua bán BĐS theo luật chi tiết tại Điều 50, Luật kinh doanh BĐS năm 2023 và Điều 13, nghị định 96-2024. - Các loại phí KH phải đóng khi chuyển nhượng theo quy định của Pháp luật ở thời điểm chuyển nhượng: + Phí công chứng chuyển nhượng BĐS + Thuế thu nhập cá nhân,...
+
+* **STT**: 84
+* **CÂU HỎI**: Thời gian dự kiến ký hợp đồng mua bán?
+* **TRẢ LỜI**: Quý I/2026
+
+* **STT**: 85
+* **CÂU HỎI**: Thời hạn bảo hành của Chủ đầu tư là bao lâu? Nội dung bảo hành?
+* **TRẢ LỜI**: Thời gian bảo hành: Điều 129 Luật Nhà ở 2023 Nhà ở được bảo hành kể từ khi hoàn thành việc xây dựng và nghiệm thu đưa vào sử dụng với thời hạn như sau: a) Đối với nhà chung cư thì tối thiểu là 60 tháng; b) Đối với nhà ở riêng lẻ thì tối thiểu là 24 tháng. - Nội dung bảo hành: Khoản 3 Điều 129 Luật Nhà ở 2023: Nội dung bảo hành nhà ở bao gồm sửa chữa, khắc phục các hư hỏng khung, cột, dầm, sàn, tường, trần, mái, sân thượng, cầu thang bộ, các phần ốp, lát, trát, hệ thống cung cấp chất đốt, hệ thống cấp điện sinh hoạt, cấp điện chiếu sáng, bể nước và hệ thống cấp nước sinh hoạt, bể phốt và hệ thống thoát nước thải, chất thải sinh hoạt, khắc phục các trường hợp nghiêng, lún, nứt, sụt nhà ở và các nội dung khác theo thỏa thuận trong hợp đồng mua bán, thuê mua nhà ở. Đối với các thiết bị khác gắn với nhà ở thì bên bán, bên cho thuê mua nhà ở thực hiện bảo hành sửa chữa, thay thế theo thời hạn quy định của nhà sản xuất.
+
+* **STT**: 86
+* **CÂU HỎI**: Phần diện tích thuộc sở hữu chung của người mua?
+* **TRẢ LỜI**: Theo pháp lý, các thức xác định tại Khoản 21 Điều 2 và Điều 142 tại Luật Nhà ở 2023: Phần sở hữu chung của nhà chung cư là phần diện tích còn lại của nhà chung cư ngoài phần diện tích thuộc sở hữu riêng của chủ sở hữu nhà chung cư và các thiết bị sử dụng chung cho nhà chung cư đó theo quy định của Luật này.
+
+* **STT**: 87
+* **CÂU HỎI**: Diện tích thông thủy (diện tích sử dụng) được tính như thế nào?
+* **TRẢ LỜI**: Diện tích thông thủy (tại Hợp đồng mua bán thể hiện là Diện tích sử dụng) quy định tại Khoản 7 Điều 1, Mẫu Ia Nghị định 96/2024: bao gồm cả phần diện tích tường ngăn các phòng bên trong căn hộ và diện tích ban công, lô gia gắn liền với căn hộ đó; không tính tường bao ngôi nhà, tường phân chia các căn hộ và diện tích sàn có cột, hộp kỹ thuật nằm bên trong căn hộ. Khi tính diện tích ban công, lô gia thì tính toàn bộ diện tích sàn, trường hợp ban công, lô gia có phần diện tích tường chung thì tính từ mép trong của tường chung được thể hiện rõ trong bản vẽ thiết kế mặt bằng căn hộ đã được phê duyệt (Chú thích: kích thước thông thủy là kích thước được đo đến mép trong của lớp hoàn thiện tường/vách/đố kính/lan can sát mặt sàn (không bao gồm các chi tiết trang trí nội thất như ốp chân tường/gờ/phào.....); diện tích sử dụng căn hộ được ghi vào Giấy chứng nhận cấp cho người mua/thuê mua căn hộ.
+
+* **STT**: 88
+* **CÂU HỎI**: Diện tích tim tường được tính như thế nào?
+* **TRẢ LỜI**: Diện tích theo tim tường (tại Hợp đồng mua bán sử dụng Diện tích sàn xây dựng) quy định tại Khoản 6 Điều 1, Mẫu Ia Nghị định 96/2024: là diện tích sàn xây dựng của căn hộ bao gồm cả phần diện tích ban công và lô gia gắn liền với căn hộ đó được tính từ tim tường bao, tường ngăn căn hộ, bao gồm cả diện tích sàn có cột, hộp kỹ thuật nằm bên trong căn hộ.
+
+* **STT**: 89
+* **CÂU HỎI**: Quy định về giới hạn diện tích tăng hay giảm khi bàn giao căn hộ?
+* **TRẢ LỜI**: Tại Điều 2 Mẫu Ia Nghị định 96/2024 có quy định "diện tích căn hộ chỉ là tạm tính, các bên có thể tăng hoặc giảm hơn theo thực tế đo đạc tại thời điểm bàn giao căn hộ. Bên mua/bên thuê mua có trách nhiệm thanh toán số tiền mua/thuê mua căn hộ cho Bên bán/bên cho thuê mua theo diện tích thực tế khi bàn giao căn hộ". Đối với Hợp đồng mua bán The Gió Riverside: - Trong trường hợp diện tích sử dụng thực tế chênh lệch trong phạm vi 1% (một phần trăm) so với diện tích ghi trong hợp đồng này thì hai bên không phải điều chỉnh lại giá bán/giá cho thuê mua căn hộ. - Nếu diện tích sử dụng thực tế chênh lệch vượt quá ± 1% (cộng/trừ một phần trăm) so với diện tích ghi trong hợp đồng này thì giá bán/giá cho thuê mua căn hộ sẽ được điều chỉnh lại theo diện tích đo đạc thực tế khi bàn giao căn hộ. - Khách hàng được quyền từ chối nhận bàn giao căn hộ khi diện tích chênh lệch vượt quá +/- 5% (cộng trừ năm phần trăm).
+
+* **STT**: 90
+* **CÂU HỎI**: Hai người là bạn cùng góp tiền mua Bất động sản, vậy hai người có được đứng tên trên HĐ mua bán hay không? Việc cấp Giấy chứng nhận sẽ được cấp như thế nào?
+* **TRẢ LỜI**: Hai người cùng được đứng tên cùng trên hợp đồng mua bán. Việc cấp GCN được cấp theo quy định tại Điều 135 Luật Đất đai 2024: "Điều 135. Nguyên tắc cấp Giấy chứng nhận quyền sử dụng đất, quyền sở hữu tài sản khác gắn liền với đất 2. Thửa đất có nhiều người chung quyền sử dụng đất, nhiều người sở hữu chung tài sản gắn liền với đất thì cấp cho mỗi người 01 Giấy chứng nhận quyền sử dụng đất, quyền sở hữu tài sản gắn liền với đất; trường hợp những người có chung quyền sử dụng đất, chung quyền sở hữu tài sản gắn liền với đất có yêu cầu thì cấp chung 01 Giấy chứng nhận quyền sử dụng đất, quyền sở hữu tài sản gắn liền với đất và trao cho người đại diện. 4. Trường hợp quyền sử dụng đất hoặc quyền sử dụng đất, quyền sở hữu tài sản gắn liền với đất hoặc quyền sở hữu tài sản gắn liền với đất là tài sản chung của vợ và chồng thì phải ghi cả họ, tên vợ và họ, tên chồng vào Giấy chứng nhận quyền sử dụng đất, quyền sở hữu tài sản gắn liền với đất, trừ trường hợp vợ và chồng có thỏa thuận ghi tên một người để đứng tên làm đại diện cho vợ và chồng. Trường hợp quyền sử dụng đất hoặc quyền sử dụng đất, quyền sở hữu tài sản gắn liền với đất hoặc quyền sở hữu tài sản gắn liền với đất là tài sản chung của vợ và chồng mà Giấy chứng nhận quyền sử dụng đất, Giấy chứng nhận quyền sở hữu nhà ở và quyền sử dụng đất ở, Giấy chứng nhận quyền sở hữu nhà ở, Giấy chứng nhận quyền sở hữu công trình xây dựng, Giấy chứng nhận quyền sử dụng đất, quyền sở hữu nhà ở và tài sản khác gắn liền với đất, Giấy chứng nhận quyền sử dụng đất, quyền sở hữu tài sản gắn liền với đất đã cấp chỉ ghi họ, tên của vợ hoặc chồng thì được cấp đổi sang Giấy chứng nhận quyền sử dụng đất, quyền sở hữu tài sản gắn liền với đất để ghi cả họ, tên vợ và họ, tên chồng nếu có yêu cầu." Như vậy, cần lưu ý 2 người là bạn độc thân => GCN sẽ thể hiện 2 người và được cấp cho 2 người 2 bản trừ trường hợp có thỏa thuận đại diện đứng tên. Trong trường hợp 1 hoặc 2 người lại có vợ và tài sản là tài sản chung thì GCN sẽ phải thể hiện tên cả vợ, chồng và người đồng sở hữu trừ trường hợp các bên có thỏa thuận đại diện đứng tên khác.
+
+* **STT**: 91
+* **CÂU HỎI**: Nếu khách hàng chậm thanh toán sẽ bị phạt lãi suất bao nhiêu? Khi nào bị thanh lý
+* **TRẢ LỜI**: Căn cứ quy định tại Điều 48 Luật Kinh doanh BĐS 2023: "2. Việc phạt và bồi thường thiệt hại do bên mua, bên nhận chuyển nhượng, bên thuê, bên thuê mua chậm tiến độ thanh toán hoặc bên bán, bên chuyển nhượng, bên cho thuê, bên cho thuê mua chậm tiến độ bàn giao bất động sản do các bên thỏa thuận và phải được ghi rõ trong hợp đồng." - Nội dung Hợp đồng mua bán tại The Gió Riverside: + Chậm thanh toán: lãi suất phạt 0,05%/ngày (1,5%/tháng) + Khi nào Chủ đầu tư được đơn phương chấm dứt hợp đồng: Trễ quá 30 ngày 1 đợt hoặc tổng số ngày trễ thanh toán tất cả các đợt là 60 ngày, Khách hàng chịu phạt thêm 20% khi HĐ bị chấm dứt bởi lỗi vi phạm này.
+
+* **STT**: 92
+* **CÂU HỎI**: Chủ đầu tư giao nhà trễ sẽ bị phạt lãi suất bao nhiêu? Khi nào bị thanh lý
+* **TRẢ LỜI**: Căn cứ quy định tại Điều 48 Luật Kinh doanh Bất động sản 2023: "2. Việc phạt và bồi thường thiệt hại do bên mua, bên nhận chuyển nhượng, bên thuê, bên thuê mua chậm tiến độ thanh toán hoặc bên bán, bên chuyển nhượng, bên cho thuê, bên cho thuê mua chậm tiến độ bàn giao bất động sản do các bên thỏa thuận và phải được ghi rõ trong hợp đồng." - Nội dung Hợp đồng mua bán tại The Gió Riverside: + Chậm bàn giao: lãi suất phạt 0,05%/ngày (1,5%/tháng). + Khi nào Khách hàng được đơn phương chấm dứt hợp đồng: Quá 180 ngày kể từ ngày bàn giao chính thức
+
+* **STT**: 93
+* **CÂU HỎI**: Phí bảo trì có đóng không? Đóng bao nhiêu, đóng khi nào? sử dụng bao lâu?
+* **TRẢ LỜI**: Điều 152 Luật Nhà ở năm 2023: "Kinh phí bảo trì phần sở hữu chung của nhà chung cư có nhiều chủ sở hữu 1. Kinh phí bảo trì phần sở hữu chung của nhà chung cư có nhiều chủ sở hữu được quy định như sau: a) Đối với căn hộ, phần diện tích khác trong nhà chung cư mà chủ đầu tư bán, cho thuê mua thì chủ đầu tư phải đóng 2% giá trị căn hộ hoặc diện tích khác bán, cho thuê mua; khoản tiền này được tính vào tiền bán, tiền thuê mua nhà mà người mua, thuê mua phải đóng khi nhận bàn giao và được quy định rõ trong hợp đồng mua bán, hợp đồng thuê mua;"
+
+* **STT**: 94
+* **CÂU HỎI**: Có đóng bảo hiểm cháy nổ không, khi nào đóng?
+* **TRẢ LỜI**: - Theo quy định tại Điều 3 Nghị định 23/2018/NĐ-CP, khoản 1 Điều 2 Nghị định 97/2021/NĐ-CP quy định về bảo hiểm cháy nổ bắt buộc về nguyên tắc tham gia bảo hiểm cháy nổ bắt buộc: 1. Cơ quan, tổ chức và cá nhân quy định tại khoản 1 Điều 2 Nghị định này (sau đây gọi là “bên mua bảo hiểm”) phải mua bảo hiểm cháy, nổ bắt buộc tại các doanh nghiệp bảo hiểm kinh doanh nghiệp vụ bảo hiểm cháy, nổ theo quy định pháp luật. - Điều 2 Nghị Định 23/2018 quy định: “1. Cơ quan, tổ chức và cá nhân có cơ sở có nguy hiểm về cháy, nổ theo quy định
+
+--- Dữ liệu trang 13-14 ---
+### Câu hỏi 95
+*   **CÂU HỎI**: Giá bán căn hộ đã bao gồm tiền sử dụng đất chưa?
+*   **TRẢ LỜI**:
+    *   Điều 92 Nghị định 102/2024/NĐ-CP hướng dẫn luật đất đai quy định:
+    *   "2. Chủ đầu tư dự án xây dựng khu chung cư, nhà chung cư được giao đất, cho thuê đất, cấp Giấy chứng nhận đối với diện tích đất thuộc dự án theo quy định sau đây:
+    *   a) Đối với diện tích đất xây dựng nhà chung cư và đất xây dựng công trình hạ tầng do chủ đầu tư sử dụng để kinh doanh theo dự án đầu tư và quy hoạch xây dựng chi tiết đã được cơ quan nhà nước có thẩm quyền phê duyệt thì chủ đầu tư được Nhà nước giao đất, cho thuê đất, thực hiện nghĩa vụ tài chính và được cấp Giấy chứng nhận theo quy định của pháp luật. ;"
+    *   Như vậy trước khi chủ đầu tư tiến hành xây dựng được dự án chủ đầu tư phải có nghĩa vụ hoàn thành việc đóng tiền sử dụng đất cho Nhà nước. Do đó khi bán căn hộ chủ đầu tư cũng tính toán giá bán bao gồm cả tiền sử dụng đất.
+    *   Tại Mẫu Hợp đồng ban hành theo Nghị định 96/2024-NĐ-CP thì: Giá bán căn hộ đã bao gồm tiền sử dụng đất.
+
+### THÔNG TIN LIÊN QUAN THỊ TRƯỜNG
+
+### Câu hỏi 96
+*   **CÂU HỎI**: Các tuyến đường chính huyết mạch kết nối với dự án?
+*   **TRẢ LỜI**:
+    *   Xa Lộ Hà Nội
+    *   Mỹ Phước Tân Vạn - Vành Đai 3
+    *   ĐT 743A
+    *   Metro số 1 và tuyến nối dài
+    *   Quốc lộ 1K – Phạm Văn Đồng
+    *   Quốc lộ 1A
+    *   Nguyễn Xiển
+
+### Câu hỏi 97
+*   **CÂU HỎI**: Trường học lân cận dự án gồm những trường nào?
+*   **TRẢ LỜI**:
+    *   2 Nhà trẻ + 1 Trường liên cấp Tiểu học & THCS (trong khuôn viên dự án)
+    *   Trường THCS Nguyễn Văn Trỗi
+    *   Trường THCS Ngô Gia Tự
+    *   Trường tiểu học Trần Văn Ơn
+    *   Trường Tiểu học Kim Đồng
+    *   Trường THCS-PT Bình An
+    *   Trường tiểu học Kim Đồng
+    *   Làng Đại học Quốc Gia (ĐH TDTT, KHTN, XHNV, Nông Lâm,...)
+    *   ĐH Sư phạm Kỹ Thuật HCM
+
+### Câu hỏi 98
+*   **CÂU HỎI**: Bệnh viện lân cận dự án?
+*   **TRẢ LỜI**:
+    *   Trạm Y Tế Phường Bình Thắng
+    *   Bệnh Viện Ung Bướu HCM 2
+    *   Bệnh Viện Shing Mark
+    *   Bệnh viện đa khoa Thủ Đức
+
+### Câu hỏi 99
+*   **CÂU HỎI**: Khu vui chơi giải trí, trung tâm thương mại lân cận dự án?
+*   **TRẢ LỜI**:
+    *   Trung tâm Thương mại Aeon Mall Biên Hòa
+    *   Khu Du Lịch Thủy Châu
+    *   Khu du lịch Suối Tiên
+    *   Khu du lịch Sơn Tiên
+    *   Siêu Công Viên Nước The Amazing Bay - Vịnh Kỳ Diệu
+    *   Sân Golf Thủ Đức
+    *   Sân Golf Long Thành
+    *   Go! Đồng Nai
+    *   Go! Dĩ An
+    *   Chợ Tân Vạn
+    *   Chợ Long Bình Tân
+
+==================================================
+
+## Nguồn: Cau hoi test online The Gio.pdf
+Dưới đây là dữ liệu chi tiết đã được trích xuất:
+
+
+
+--- Dữ liệu trang 1-4 ---
+* **Chủ đầu tư An Gia thành lập năm nào?**: 2006
+* **Chủ đầu tư An Gia niêm yết trên sàn chứng khoán năm nào?**: 2020
+* **Hãy kể tên những dự án An Gia triển khai Tân Phú?**: The Garden
+* **Hãy kể tên những dự án An Gia triển khai Bình Tân?**: The Star
+* **Hãy kể tên những dự án An Gia triển khai Quận 7?**: Riverside, Skyline, Riverpanorama, Sky89
+* **Hãy kể tên những dự án An Gia triển khai Vũng Tàu?**: The Sóng
+* **Hãy kể tên những dự án An Gia triển khai Bình Chánh?**: Westgate
+* **Hãy kể tên những dự án An Gia triển khai Bình Dương?**: The Standard, The Gió
+* **Công năng thiết kế thường thấy ở các căn hộ AG?**: Thiết kế đón nắng và gió, tối ưu công năng, có ban công, logia riêng
+* **Trong căn hộ có hệ thống báo cháy, báo khói và chữa cháy không?**: Trong căn hộ có trang bị hệ thống báo cháy, báo cháy tại các phòng và chữa cháy tự động tại các phòng theo phê duyệt của chính quyền
+* **Hành lang căn hộ có chữa cháy tự động không?**: Hành lang được trang bị chữa cháy tự động
+* **Cửa chống cháy thoát hiểm phòng kỹ thuật làm bằng cửa gì?**: Cửa thép chống cháy - Galaxy
+* **Có camera quan sát tòa nhà hay không?**: Camera thang máy, khu vực tầng hầm
+* **Dự án có hệ thống Videocall hay không? Thương hiệu gì?**: Có - Thương hiệu Panasonic
+* **Có nút bấm báo động ở tất cả các tầng không?**: Có, đúng theo Quy định của PCCC
+* **Tiêu chuẩn bàn giao: bàn giao thô hay hoàn thiện?**: Bàn giao hoàn thiện cơ bản: hoàn thiện sàn, tường, nhà vệ sinh, có hệ thống tủ bếp, trần đóng che các đường ống kỹ thuật
+* **Danh mục vật liệu bàn giao – Thương hiệu/chủng loại của**: Theo bảng danh mục vật tư bàn giao được CĐT ban hành
+* **Cửa chính, phòng ngủ, WC bàn giao vật liệu gì? Quy cách? Thương hiệu?**: Cửa chính là cửa thép chống cháy - Galaxy. Cửa Phòng ngủ và WC là cửa nhựa ABS giả gỗ
+* **Khóa cửa thương hiệu gì? Chức năng?**: Khóa từ Yale/Hafele 3 chức năng mã số, thẻ, cơ
+* **Vật liệu sàn phòng ngủ? Quy cách? Thương hiệu?**: Ván sàn công nghiệp 8mm - Thương hiệu Konigin/ An Cường
+* **Vật liệu sàn phòng khách, bếp? Quy cách? Thương hiệu?**: Gạch Granite 600x600 - Thương hiệu Perfecto, Á mỹ, Bạch mã
+* **Trong căn hộ có đóng trần hay không? Khu vực có đóng trần?**: Trần bê tông sơn nước, trần thạch cao che các vị trí ống kỹ thuật tùy theo thiết kế của từng căn hộ
+* **Vật liệu thiết bị vệ sinh thương hiệu gì?**: Hafele/Toto/American Standard
+* **Nhà vệ sinh có bàn giao quạt hút mùi không? Thương hiệu**: Có - Thương hiệu Kolowa
+* **Có bàn giao hệ thống tủ bếp hay không? Nếu có thương hiệu gì? Phụ kiện bếp?**: Có - Thương hiệu An Cường/Casta, phụ kiện Hafele/Imundex
+* **Bồn rửa chén thương hiệu gì?**: Có - Thương hiệu Hafele, Malloca
+* **Thiết kế căn hộ có balcony/logia hay không? chiều cao bao nhiêu?**: Tất cả các thiết kế đều có logia. Tùy thiết kế sẽ có căn có balcony. Chiều cao lan can 1,4m
+* **Ổ cắm, công tắc sử dụng nhãn hiệu gì?**: Hager/Legrand
+* **Cửa bên trong căn hộ (cửa lớn/cửa sổ) sử dụng cửa gì? Và**: Hệ nhôm kính
+* **Tường các phòng có hoàn thiện bằng sơn hay không? Hiệu**: Có - Sơn nước thương hiệu Jotun/ Nippon
+* **Dàn nóng máy lạnh đặt ở đâu?**: Bố trí ở Logia riêng (Không bao gồm thiết bị)
+* **Ống cấp nước sử dụng loại ống gì?**: Sử dụng ống chịu nhiệt PPR
+* **Máy giặt bố trí vị trí nào trong căn hộ?**: Bố trí ở Logia riêng (Không bao gồm thiết bị)
+* **Có nhà sinh hoạt cộng đồng không? Rộng bao nhiêu m2? Nằm ở block nào?**: Có, tổng diện tích khoảng 1.600m2 nằm ở tầng 1 Block MEKONG và DANUBE 2
+* **Chủ căn hộ có được thay đổi thiết kế căn hộ không?**: Không cho phép thay đổi thiết kế
+* **Chủ căn hộ có được thông 2 căn hộ với nhau khi nhận bàn**: Không
+* **Người mua nhà có thể nhận được bản vẽ thiết kế bằng file**: Có, từ 6-12 tháng trước khi nhận nhà
+* **Đơn vị xây dựng dự án Westgate?**: Ricons
+* **Đơn vị quản lý vận hành dự án Westgate?**: Becamex Tokyu
+* **Phí quản lý WG bao nhiêu?**: 12.000 VNĐ/M2
+* **Phí gửi xe ô tô, xe máy WG bao nhiêu?**: Xe máy 120k, ô tô 1,3tr
+* **Phí quản lý bao gồm những loại phí gì?**: Phí quản lý dự kiến được chi trả cho các hạng mục: Điều khiển, duy trì hoạt động, bảo dưỡng thường xuyên hệ thống thang máy, máy bơm nước, máy phát điện, hệ thống báo cháy tự động, hệ thống chữa cháy, dụng cụ chữa cháy, các thiết bị dự phòng và các thiết bị khác thuộc Phần Sở Hữu Chung của Tòa Nhà. Cung cấp các dịch vụ bảo vệ, vệ sinh môi trường, thu gom rác thải, chăm sóc vườn hoa, cây cảnh, diệt côn trùng và các dịch vụ khác bảo đảm cho Tòa Nhà hoạt động bình thường.
+* **Tuyến metro số 1 dài bao nhiêu km?**: Metro số 1 có 14 ga, Dài 19,7km, 2,6 km đi ngầm 17,1 km đi trên cao
+* **Giá vé metro theo ngày, theo tháng?**: Vé theo ngày: Vé 1 ngày: 40.000 đồng/người, không giới hạn số lượt đi lại trong ngày. Vé 3 ngày: 90.000 đồng/người, không giới hạn số lượt đi lại trong 3 ngày. Vé tháng: Hành khách phổ thông: 300.000 đồng/người, không giới hạn số lượt đi lại trong tháng. - Học sinh, sinh viên: 150.000 đồng/người/tháng.
+* **Những tiện ích ngoại khu nào cách The Gió Riverside 3 - 7 phút di chuyển?**: Trường THCS Nguyễn Trãi, Trường THCS Ngô Gia Tự, Trường TH Trần Văn Ơn, Trung tâm thương mại Aeon Mall, Metro số 1 và tuyến nối dài, Chợ Tân Vạn, UBND Phường Tân Vạn
+* **Những tiện ích ngoại khu nào cách The Gió Riverside 7 - 10 phút?**: Bến Xe Miền Đông Mới, Làng đại học, Khu du lịch Suối Tiên, Chợ Long Bình Tân, Bệnh viện Ung Bứu, Go Mart Đồng Nai
+* **Những tiện ích ngoại khu nào cách The Gió Riverside 12 - 15 phút?**: Sân Golf Thủ Đức, Khu Công Nghệ Cao, Bệnh viện Shing Mark, KCN Biên Hòa 2, ĐH Sư Phạm Kỹ Thuật TPHCM
+* **Những tiện ích ngoại khu nào cách The Gió Riverside 12 - 15 phút?**: Bến Thành. Sân bay Tân Sơn Nhất
+* **Xe bus 150 đi từ đâu tới đâu?**: Xe buýt số 150 ở TP.HCM có lộ trình từ Bến xe Chợ Lớn đến Ngã ba Tân Vạn
+* **Xe bus 150 hoạt động từ mấy giờ? Kết thúc lúc mấy giờ?**: Thời gian hoạt động: 4h30 – 20h30
+* **Xe bus 150 hành trình di chuyển dài bao nhiêu km?**: Khoảng cách: ~31 km
+* **Tuyến Vành Đai 3 đi qua những tỉnh thành nào?**: Kết nối giữa Long An, TP.HCM, Bình Dương và Đồng Nai
+* **Nút giao Tân Vạn kết nối vào những tuyến đường chính nào?**: Quốc lộ 1 (Xa lộ Hà Nội), đường Nguyễn Xiển (TP Thủ Đức) và đường ĐT 743A (TP Dĩ An, Bình Dương).
+* **Vành đai 3 dài bao nhiêu km?**: 92km
+* **Aeon Mall Biên Hòa nằm ở đâu?**: Cù Lao Phố, phường Hiệp Hòa, thành phố Biên Hòa, tỉnh Đồng Nai
+* **Quy mô AEON MALL Biên Hòa bao nhiêu?**: 12ha
+* **Ngày khởi công AEON Mall Biên Hòa là ngày mấy?**: Chính thức khởi công vào ngày 10 tháng 1 năm 2025
+* **Ngày đưa vào hoạt động AEON MALL Biên Hòa là khi nào?**: Năm 2027
+* **Sức chứa AEON MALL Biên Hòa là bao nhiêu?**: 10 triệu lượt khách mỗi năm
+
+==================================================
